@@ -1,0 +1,13 @@
+{
+  "manifest_version": 1,
+  "name": "Colonist.io Card Counter",
+  "version": "1.0.0",
+  "description": "Tracks each player's resources based on the chat log and estimates potential resources based on hidden actions",
+  "content_scripts": [
+    {
+      "matches": ["https://colonist.io/*", "https://www.colonist.io/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
