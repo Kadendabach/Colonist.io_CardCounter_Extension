@@ -1,5 +1,5 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 3,
   "name": "Colonist.io Card Counter",
   "version": "1.0.0",
   "description": "Tracks each player's resources based on the chat log and estimates potential resources based on hidden actions",
